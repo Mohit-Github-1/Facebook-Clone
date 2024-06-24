@@ -1,0 +1,376 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook clone</title>
+
+    <link rel="stylesheet" href="Facebook_Clone.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="navLeft">
+            <img src="images/logo.png" class="logoImg">
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+
+        <div class="navRight">
+            <div class="search">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="navProfileImg" onclick="settingMenuOpen()">
+                <img src="images/profile-pic.png">
+            </div>      
+        </div>
+
+        <div class="settingsMenu">
+            <div class="paddingCover">
+            <div class="settingProfile">
+                <img src="images/profile-pic.png" alt="">
+                <div>
+                    <h4>John Nicholson</h4>
+                    <a href="Facebook_Clone_Profile_Page.html">See your Profile</a>
+                </div>
+
+                <div class="toggleBtn">
+                    <div class="toggleBtnMark"></div>
+                </div>
+            </div>
+
+            <div class="lineBreak"></div>
+
+            <div class="feedback">
+                <img src="images/feedback.png" alt="">
+                <div>
+                    <h4>Give Feedback</h4>
+                    <a href="">Help us to improve the new design</a>
+                </div>
+            </div>
+
+            <div class="lineBreak"></div>
+
+            <div class="settingLinkBox">
+                <div class="SettingLink">
+                    <div>
+                        <img src="images/setting.png" alt="">
+                        <p>Settings & Privacy</p>
+                    </div>
+                    <img src="images/arrow.png" alt="">
+                </div>
+
+                <div class="SettingLink">
+                    <div>
+                        <img src="images/help.png" alt="">
+                        <p>Help & Support</p>
+                    </div>
+                    <img src="images/arrow.png" alt="">
+                </div>
+
+                <div class="SettingLink">
+                    <div>
+                        <img src="images/display.png" alt="">
+                        <p>Display & Accessibility</p>
+                    </div>
+                    <img src="images/arrow.png" alt="">
+                </div>
+
+                <div class="SettingLink">
+                    <div>
+                        <img src="images/logout.png" alt="">
+                        <p>LogOut</p>
+                    </div>
+                    <img src="images/arrow.png" alt="">
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="leftContainer">
+            <ul class="media">
+                <li>
+                    <a href=""><img src="images/news.png">Latest News</a>
+                </li>
+                <li>
+                    <a href=""><img src="images/friends.png">Friends</a>
+                </li>
+                <li>
+                    <a href=""><img src="images/group.png">Groups</a>
+                </li>
+                <li>
+                    <a href=""><img src="images/marketplace.png">Marketplace</a>
+                </li>
+                <li>
+                    <a href=""><img src="images/watch.png">Watch</a>
+                </li>
+                <li class="seeMore">
+                    <a href="#ProfilePage">See More</a>
+                </li>
+            </ul>
+
+            <div class="lineBreak"></div>
+
+            <ul class="shortcuts">
+                <li>
+                    <a href=""><img src="images/shortcut-1.png">Web Developers</a>
+                </li>
+                <li>
+                    <a href=""><img src="images/shortcut-2.png">Web Design Course</a>
+                </li>
+                <li>
+                    <a href=""><img src="images/shortcut-3.png">Full Stack Development</a>
+                </li>
+                <li>
+                    <a href=""><img src="images/shortcut-4.png">Website Testing</a>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+        <div class="middleContainer">
+
+            <div class="storyGallery">
+                <div class="story">    
+                    <img src="images/upload.png" alt="">
+                    <p>Post Story</p>
+                </div>
+
+                <div class="story">    
+                    <img src="images/member-1.png" alt="">
+                    <p>Alison</p>
+                </div>
+
+                <div class="story">    
+                    <img src="images/member-2.png" alt="">
+                    <p>Jackson</p>
+                </div>
+
+                <div class="story">    
+                    <img src="images/member-3.png" alt="">
+                    <p>Samona</p>
+                </div>
+
+                <div class="story">    
+                    <img src="images/member-4.png" alt="">
+                    <p>Jhon Doe</p>
+                </div>
+            </div>
+
+            <div class="thoughts">
+                <div class="left">
+                    <img src="images/profile-pic.png" alt="">
+                </div>
+
+                <div class="right">
+                    <h4>John Nicholson</h4>
+                    <h5>Public</h5>
+                    <p>what's on your mind Jhon?</p>
+                    <textarea rows="3"></textarea>
+                    <div class="links">
+                        <a href=""><img src="images/live-video.png" alt="">Live Video</a>
+                        <a href=""><img src="images/photo.png" alt="">Photo/Video</a>
+                        <a href=""><img src="images/feeling.png" alt="">Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="posts">
+
+                <div class="post">
+                    <div class="top">
+                        <div class="left">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <h4>John Nicholson</h4>
+                                <h5>June 22 2023, 12:30 pm</h5>
+                            </div>
+                        </div>
+
+                        <div class="right">
+                            <a href=""><img src="images/more.png" alt=""></a>    
+                        </div>
+                    </div>
+
+                    <div class="postMain">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                             Quasi corrupti sunt voluptatum ipsa minus. Commodi 
+                             facere numquam veniam architecto exercitationem.</p>
+                        <img src="images/feed-image-1.png" alt="">
+                    </div>
+
+                    <div class="postLinks">
+                        <div class="left">
+                            <a href=""><img src="images/like-blue.png" alt="">120</a>
+                            <a href=""><img src="images/comments.png" alt="">45</a>
+                            <a href=""><img src="images/share.png" alt="">20</a>
+                        </div>
+
+                        <div class="right">
+                            <img src="images/profile-pic.png" alt="">
+                            <a href=""><img src="images/arrow.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="top">
+                        <div class="left">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <h4>John Nicholson</h4>
+                                <h5>July 2023, 8:45 pm</h5>
+                            </div>
+                        </div>
+
+                        <div class="right">
+                            <a href=""><img src="images/more.png" alt=""></a>    
+                        </div>
+                    </div>
+
+                    <div class="postMain">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                             Quasi corrupti sunt voluptatum ipsa minus. Commodi 
+                             facere numquam veniam architecto exercitationem.</p>
+                        <img src="images/feed-image-2.png" alt="">
+                    </div>
+
+                    <div class="postLinks">
+                        <div class="left">
+                            <a href=""><img src="images/like.png" alt="">165</a>
+                            <a href=""><img src="images/comments.png" alt="">25</a>
+                            <a href=""><img src="images/share.png" alt="">30</a>
+                        </div>
+
+                        <div class="right">
+                            <img src="images/profile-pic.png" alt="">
+                            <a href=""><img src="images/arrow.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="top">
+                        <div class="left">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <h4>John Nicholson</h4>
+                                <h5>September 18 2023, 06:00 am</h5>
+                            </div>
+                        </div>
+
+                        <div class="right">
+                            <a href=""><img src="images/more.png" alt=""></a>    
+                        </div>
+                    </div>
+
+                    <div class="postMain">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                             Quasi corrupti sunt voluptatum ipsa minus. Commodi 
+                             facere numquam veniam architecto exercitationem.</p>
+                        <img src="images/feed-image-3.png" alt="">
+                    </div>
+
+                    <div class="postLinks">
+                        <div class="left">
+                            <a href=""><img src="images/like.png" alt="">90</a>
+                            <a href=""><img src="images/comments.png" alt="">10</a>
+                            <a href=""><img src="images/share.png" alt="">35</a>
+                        </div>
+
+                        <div class="right">
+                            <img src="images/profile-pic.png" alt="">
+                            <a href=""><img src="images/arrow.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="rightContainer">
+
+            <div class="events">
+                <div class="eventHeading">
+                    <h5>Events</h5>
+                    <a href="">See All</a>
+                </div>
+
+                <div class="eventDataBox">
+                    <div class="eventData">
+                        <div class="dateDay">
+                            <h4>18</h4>
+                            <p>March</p>
+                        </div>
+
+                        <div class="info">
+                            <h4>Social Media</h4>
+                            <p>Willson Tech Park</p>
+                            <a href="">More Info</a>
+                        </div>
+                    </div> 
+                    
+                    <div class="eventData">
+                        <div class="dateDay">
+                            <h4>22</h4>
+                            <p>June</p>
+                        </div>
+
+                        <div class="info">
+                            <h4>Mobile Marketing</h4>
+                            <p>Willson Tech Park</p>
+                            <a href="">More Info</a>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="advertisement">
+                <div class="advertisementHeading">
+                    <h5>Advertisement</h5>
+                    <a href="">Close</a>
+                </div>
+
+                <img src="images/advertisement.png" alt="">
+            </div>
+
+            <div class="conversations">
+                <div class="conversationHeading">
+                    <h5>Conversations</h5>
+                    <a href="">Hide Chat</a>
+                </div>
+
+                <div class="conversationDetails">
+                    <div class="detail">
+                        <a href=""><div class="conversationImg"><img src="images/member-1.png" alt=""></div>Alison Mena</a>
+                    </div>
+
+                    <div class="detail">
+                        <a href=""><div class="conversationImg"><img src="images/member-2.png" alt=""></div>Jackson Aston</a>
+                    </div>
+
+                    <div class="detail">
+                        <a href=""><div class="conversationImg"><img src="images/member-3.png" alt=""></div>Samona Rose</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="Facebook_Clone.js"></script>
+    
+</body>
+</html>
